@@ -1,0 +1,110 @@
+{
+    "window.zoomLevel": -0.9,
+    "workbench.colorTheme": "One Dark Pro",
+    "files.trimTrailingWhitespace": true,
+    // --------------------------------------------
+    // terminal
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.lineHeight": 1.2,
+    "terminal.integrated.rendererType": "dom",
+    "terminal.integrated.inheritEnv": false,
+    "terminal.integrated.cursorStyle": "block",
+    // --------------------------------------------
+    // programming
+    "go.useLanguageServer": true,
+    "go.autocompleteUnimportedPackages": true,
+    "go.lintTool": "golint",
+    "go.lintOnSave": "file",
+    "[go]": {
+        "editor.insertSpaces": false,
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    // --------------------------------------------
+    // editing
+    "editor.lineNumbers": "relative",
+    "editor.cursorStyle": "line",
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
+    "editor.detectIndentation": false,
+    "editor.fontFamily": " 'JetBrains Mono', 'Operator Mono Lig', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 13,
+    "editor.fontWeight": "300",
+    "editor.suggestSelection": "first",
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingQuotes": "always",
+    "editor.tokenColorCustomizations": {
+        //"comments": "#38444c",
+        "textMateRules": [
+            {
+                "scope": "keyword, keyword.declaration.dart, storage.type, comment",
+                "settings": {
+                    "fontStyle": "italic "
+                }
+            }
+        ]
+    },
+    // vim mode
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "d"
+            ],
+            "after": [
+                "d",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "<C-n>"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    // Themeing
+    "workbench.colorCustomizations": {
+        "[One Dark Pro]": {
+            "titleBar.activeBackground": "#21252b",
+            "activityBar.background": "#21252b",
+            "activityBar.border": "#252a30",
+            "panel.border": "#2f353c",
+            //"panelTitle.inactiveForeground": "#606265",
+            //"panelTitle.activeForeground": "#92bb75",
+            //"separators.methods.borderColor": "#474a51",
+            //"separators.functions.borderColor": "#474a51",
+            //"separators.constructors.borderColor": "#474a51",
+            //"sideBar.foreground": "#868b8b"
+            "sideBar.foreground": "#7d8fa8",
+            //"list.focusForeground": "#fca000"
+            "list.focusForeground": "#95c077"
+        },
+    },
+}

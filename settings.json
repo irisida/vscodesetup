@@ -1,36 +1,82 @@
 {
-    "window.zoomLevel": -0.9,
+    // general settings
+    // ****************
     "workbench.colorTheme": "One Dark Pro",
+    "workbench.tree.indent": 16,
+    "window.zoomLevel": -0.75,
     "files.trimTrailingWhitespace": true,
-    // --------------------------------------------
-    // terminal
-    "terminal.integrated.fontFamily": "MesloLGS NF",
-    "terminal.integrated.fontSize": 12,
+    // Terminal settings
+    // *****************
     "terminal.integrated.lineHeight": 1.2,
     "terminal.integrated.rendererType": "dom",
     "terminal.integrated.inheritEnv": false,
     "terminal.integrated.cursorStyle": "block",
-    // --------------------------------------------
-    // programming
-    "go.useLanguageServer": true,
+    "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
+    // workbench customisation
+    // ***********************
+    "workbench.colorCustomizations": {
+        "[One Dark Pro]": {
+            "titleBar.activeBackground": "#21252b",
+            "activityBar.background": "#21252b",
+            "activityBar.border": "#252a30",
+            "panel.border": "#2f353c",
+            //"sideBar.foreground": "#7d8fa8",
+            "sideBar.foreground": "#6d7e94",
+            "list.focusForeground": "#95c077",
+            "separators.interfaces.borderColor": "#3f4148",
+            "separators.methods.borderColor": "#3f4148",
+            "separators.functions.borderColor": "#3f4148",
+            "separators.constructors.borderColor": "#3f4148",
+        },
+        "[One Monokai]": {
+            "titleBar.activeBackground": "#21252b",
+            "activityBar.background": "#21252b",
+            "activityBar.border": "#252a30",
+            "panel.border": "#333a41",
+            "sideBar.foreground": "#7d8fa8",
+            "list.focusForeground": "#95c077",
+            "separators.interfaces.borderColor": "#3f4148",
+            "separators.methods.borderColor": "#3f4148",
+            "separators.functions.borderColor": "#3f4148",
+            "separators.constructors.borderColor": "#3f4148",
+        }
+    },
+    // golang environment settings
+    // ***************************
     "go.autocompleteUnimportedPackages": true,
     "go.lintTool": "golint",
     "go.lintOnSave": "file",
+    "go.useLanguageServer": true,
     "[go]": {
-        "editor.insertSpaces": false,
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
-            "source.organizeImports": true
-        }
+            "source.organizeImports": true,
+        },
+        // Optional: Disable snippets, as they conflict with completion ranking.
+        "editor.snippetSuggestions": "none",
     },
-    // --------------------------------------------
-    // editing
+    "[go.mod]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true,
+        },
+    },
+    "gopls": {
+        // Add parameter placeholders when completing a function.
+        "usePlaceholders": false,
+        // If true, enable additional analyses with staticcheck.
+        // Warning: This will significantly increase memory usage.
+        "staticcheck": false,
+    },
+    // editor settings
+    // ***************
     "editor.lineNumbers": "relative",
     "editor.cursorStyle": "line",
     "editor.fontLigatures": true,
     "editor.formatOnSave": true,
     "editor.detectIndentation": false,
-    "editor.fontFamily": " 'JetBrains Mono', 'Operator Mono Lig', Menlo, Monaco, 'Courier New', monospace",
+    //"editor.fontFamily": " 'CaskaydiaCove Nerd Font' ,'JetBrains Mono', 'Operator Mono Lig', Menlo, Monaco, monospace",
+    "editor.fontFamily": " 'JetBrainsMono Nerd Font', 'Operator Mono Lig', Menlo, Monaco, monospace",
     "editor.fontSize": 13,
     "editor.fontWeight": "300",
     "editor.suggestSelection": "first",
@@ -47,64 +93,5 @@
             }
         ]
     },
-    // vim mode
-    "vim.easymotion": true,
-    "vim.incsearch": true,
-    "vim.useSystemClipboard": true,
-    "vim.useCtrlKeys": true,
-    "vim.hlsearch": true,
-    "vim.insertModeKeyBindings": [
-        {
-            "before": [
-                "j",
-                "j"
-            ],
-            "after": [
-                "<Esc>"
-            ]
-        }
-    ],
-    "vim.normalModeKeyBindingsNonRecursive": [
-        {
-            "before": [
-                "<leader>",
-                "d"
-            ],
-            "after": [
-                "d",
-                "d"
-            ]
-        },
-        {
-            "before": [
-                "<C-n>"
-            ],
-            "commands": [
-                ":nohl"
-            ]
-        }
-    ],
-    "vim.leader": "<space>",
-    "vim.handleKeys": {
-        "<C-a>": false,
-        "<C-f>": false
-    },
-    // Themeing
-    "workbench.colorCustomizations": {
-        "[One Dark Pro]": {
-            "titleBar.activeBackground": "#21252b",
-            "activityBar.background": "#21252b",
-            "activityBar.border": "#252a30",
-            "panel.border": "#2f353c",
-            //"panelTitle.inactiveForeground": "#606265",
-            //"panelTitle.activeForeground": "#92bb75",
-            //"separators.methods.borderColor": "#474a51",
-            //"separators.functions.borderColor": "#474a51",
-            //"separators.constructors.borderColor": "#474a51",
-            //"sideBar.foreground": "#868b8b"
-            "sideBar.foreground": "#7d8fa8",
-            //"list.focusForeground": "#fca000"
-            "list.focusForeground": "#95c077"
-        },
-    },
+    "explorer.compactFolders": false,
 }
