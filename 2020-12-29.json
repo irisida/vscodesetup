@@ -1,0 +1,106 @@
+{
+    // general settings
+    // ****************
+    "workbench.tree.indent": 16,
+    "window.zoomLevel": -0.75,
+    "workbench.colorTheme": "Monokai Pro",
+    "workbench.iconTheme": "Monokai Pro Icons",
+    // Terminal settings
+    // *****************
+    "terminal.integrated.lineHeight": 1.2,
+    "terminal.integrated.rendererType": "dom",
+    "terminal.integrated.inheritEnv": false,
+    "terminal.integrated.cursorStyle": "block",
+    "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
+    // workbench customisation
+    // ***********************
+    "workbench.colorCustomizations": {
+        "[Monokai Pro]": {
+            "separators.interfaces.borderColor": "#3f4148",
+            "separators.methods.borderColor": "#3f4148",
+            "separators.functions.borderColor": "#3f4148",
+            "separators.constructors.borderColor": "#3f4148",
+            "separators.classes.borderColor": "#3f4148",
+            "separators.enums.borderColor": "#3f4148"
+        },
+        "[Monokai Pro (Filter Machine)]": {
+            "separators.interfaces.borderColor": "#3f4148",
+            "separators.methods.borderColor": "#3f4148",
+            "separators.functions.borderColor": "#3f4148",
+            "separators.constructors.borderColor": "#3f4148",
+            "separators.classes.borderColor": "#3f4148",
+        },
+        "[Bear Theme]": {
+            "separators.interfaces.borderColor": "#3f4148",
+            "separators.methods.borderColor": "#3f4148",
+            "separators.functions.borderColor": "#3f4148",
+            "separators.constructors.borderColor": "#3f4148",
+            "separators.classes.borderColor": "#3f4148",
+        },
+        "[One Dark Pro]": {
+            "titleBar.activeBackground": "#21252b",
+            "activityBar.background": "#21252b",
+            "activityBar.border": "#252a30",
+            "panel.border": "#2f353c",
+            //"sideBar.foreground": "#7d8fa8",
+            "sideBar.foreground": "#6d7e94",
+            "list.focusForeground": "#95c077",
+            "separators.interfaces.borderColor": "#3f4148",
+            "separators.methods.borderColor": "#3f4148",
+            "separators.functions.borderColor": "#3f4148",
+            "separators.constructors.borderColor": "#3f4148",
+        },
+    },
+    // editor settings
+    // ***************
+    "editor.cursorStyle": "line",
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
+    "editor.detectIndentation": false,
+    "editor.fontFamily": " 'FuraCode Nerd Font' ,'JetBrains Mono', 'Operator Mono Lig', Menlo, Monaco, monospace",
+    //"editor.fontFamily": " 'Hasklug Nerd Font' ,'JetBrains Mono', 'Operator Mono Lig', Menlo, Monaco, monospace",
+    //"editor.fontFamily": " 'Anonymice Nerd Font' ,'JetBrains Mono', 'Operator Mono Lig', Menlo, Monaco, monospace",
+    //"editor.fontFamily": " 'CaskaydiaCove Nerd Font' ,'JetBrains Mono', 'Operator Mono Lig', Menlo, Monaco, monospace",
+    //"editor.fontFamily": " 'JetBrainsMono Nerd Font', 'Operator Mono Lig', Menlo, Monaco, monospace",
+    "editor.fontSize": 13,
+    "editor.fontWeight": "100",
+    "editor.suggestSelection": "first",
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingQuotes": "always",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "keyword, keyword.declaration.dart, storage.type, comment",
+                "settings": {
+                    "fontStyle": "italic "
+                }
+            }
+        ]
+    },
+    "explorer.compactFolders": false,
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "microprofile.alwaysShowOverview": false,
+    "quarkus.tools.alwaysShowWelcomePage": false,
+    "sonarlint.rules": {
+        "java:S106": {
+            "level": "off"
+        },
+        "java:S110": {
+            "level": "off"
+        },
+        "java:S3252": {
+            "level": "off"
+        }
+    },
+    "cSpell.language": "en-GB",
+    "cSpell.userWords": [
+        "Println",
+        "hashcode",
+        "irisida",
+        "javarepologo",
+        "jframe",
+        "printf"
+    ],
+    "java.refactor.renameFromFileExplorer": "autoApply",
+    "files.trimTrailingWhitespace": true,
+}
