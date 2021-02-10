@@ -93,6 +93,12 @@
       }
     ]
   },
+  // **********************************
+  // emmet built in extension overrides
+  // **********************************
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
 
   // ****************************
   // language specific formatting
