@@ -1,3 +1,4 @@
+// vim mode settings
 vscodevim.vim
 akamud.vscode-theme-onedark
 zhuangtongfa.material-theme
