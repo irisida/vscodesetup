@@ -76,6 +76,7 @@
       }
     ]
   },
+  // fix UI
   "explorer.compactFolders": false,
   "cSpell.language": "en-GB",
   "cSpell.userWords": [
