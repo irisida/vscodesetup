@@ -60,7 +60,7 @@
   "editor.fontFamily": " 'FuraCode Nerd Font' ,'JetBrains Mono', 'Operator Mono Lig', Menlo, Monaco, monospace",
   //"editor.fontFamily": " 'Hasklug Nerd Font' ,'JetBrains Mono', 'Operator Mono Lig', Menlo, Monaco, monospace",
   //"editor.fontFamily": " 'Anonymice Nerd Font' ,'JetBrains Mono', 'Operator Mono Lig', Menlo, Monaco, monospace",
-
+  //"editor.fontFamily": " 'CaskaydiaCove Nerd Font' ,'JetBrains Mono', 'Operator Mono Lig', Menlo, Monaco, monospace",
   "editor.fontSize": 13,
   "editor.fontWeight": "100",
   "editor.suggestSelection": "first",
