@@ -4,5 +4,7 @@ vscodevim.vim
 // use the main one dark instead
 akamud.vscode-theme-onedark
 zhuangtongfa.material-theme
+
+// make sure to recompile the tools
 golang.go
 sendhil.vscode-file-explorer-menu
