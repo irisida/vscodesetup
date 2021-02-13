@@ -15,4 +15,4 @@ separators
 color highlight
 es7 react snippets
 todo highlight
-autorename tag
+autorename tag (superseded by vscode itself)
