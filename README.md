@@ -10,3 +10,4 @@ some vim key bindings.
 javascript setup:
 prettier
 beautify
+css peek
