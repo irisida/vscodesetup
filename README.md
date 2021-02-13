@@ -14,3 +14,4 @@ css peek
 separators
 color highlight
 es7 react snippets
+todo highlight
