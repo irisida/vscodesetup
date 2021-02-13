@@ -7,4 +7,6 @@ zhuangtongfa.material-theme
 
 // make sure to recompile the tools
 golang.go
+
+// works like nerdtree
 sendhil.vscode-file-explorer-menu
