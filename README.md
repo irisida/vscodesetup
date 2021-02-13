@@ -6,3 +6,5 @@ general settings,
 typical extension settings,
 adds vim mode,
 some vim key bindings.
+
+javascript setup:
