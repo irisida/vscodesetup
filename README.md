@@ -8,3 +8,4 @@ adds vim mode,
 some vim key bindings.
 
 javascript setup:
+prettier
