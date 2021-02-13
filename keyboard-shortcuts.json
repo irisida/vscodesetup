@@ -1,50 +1,51 @@
-// Place your key bindings in this file to override the defaults
+// Place your key bindings in this file
+// to override the defaults
 [
-    // Toggle to terminal focus
-    {
-        "key": "cmd+e",
-        "command": "workbench.action.terminal.focus"
-    },
-    // Toggle to editor focus
-    {
-        "key": "cmd+e",
-        "command": "workbench.action.focusActiveEditorGroup",
-        "when": "terminalFocus"
-    },
-    //cycle to next terminal session
-    {
-        "key": "alt+cmd+]",
-        "command": "workbench.action.terminal.focusNext",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "alt+k",
-        "command": "selectNextSuggestion",
-        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
-    },
-    {
-        "key": "alt+j",
-        "command": "selectPrevSuggestion",
-        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
-    },
-    {
-        // |←
-        "key": "cmd+m",
-        "when": "!sideBarFocus",
-        "command": "workbench.action.focusSideBar"
-    },
-    {
-        // |→
-        "key": "cmd+m",
-        "when": "sideBarFocus",
-        "command": "workbench.action.focusActiveEditorGroup"
-    },
-    {
-        "key": "cmd+left",
-        "command": "workbench.action.previousEditor"
-    },
-    {
-        "key": "cmd+right",
-        "command": "workbench.action.nextEditor"
-    }
+  // Toggle to terminal focus
+  {
+    "key": "cmd+e",
+    "command": "workbench.action.terminal.focus"
+  },
+  // Toggle to editor focus
+  {
+    "key": "cmd+e",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  },
+  //cycle to next terminal session
+  {
+    "key": "alt+cmd+]",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "alt+k",
+    "command": "selectNextSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "alt+j",
+    "command": "selectPrevSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    // |←
+    "key": "cmd+m",
+    "when": "!sideBarFocus",
+    "command": "workbench.action.focusSideBar"
+  },
+  {
+    // |→
+    "key": "cmd+m",
+    "when": "sideBarFocus",
+    "command": "workbench.action.focusActiveEditorGroup"
+  },
+  {
+    "key": "cmd+left",
+    "command": "workbench.action.previousEditor"
+  },
+  {
+    "key": "cmd+right",
+    "command": "workbench.action.nextEditor"
+  }
 ]
