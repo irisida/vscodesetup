@@ -11,3 +11,4 @@ javascript setup:
 prettier
 beautify
 css peek
+separators
