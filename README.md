@@ -12,3 +12,4 @@ prettier
 beautify
 css peek
 separators
+color highlight
