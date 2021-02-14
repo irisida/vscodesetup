@@ -113,6 +113,7 @@
   "debug.onTaskErrors": "debugAnyway",
   // **********************
   // prettier settings
+  // quotes and react
   // **********************
   "prettier.singleQuote": true,
   "prettier.jsxSingleQuote": true,
