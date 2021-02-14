@@ -126,9 +126,10 @@
     "editor.defaultFormatter": "HookyQR.beautify"
   },
   "editor.wordWrap": "on",
-  // **********************
+  // ********************************
   // Spell checker settings
-  // **********************
+  // enbale language setting to en-GB
+  // ********************************
   "cSpell.language": "en-GB",
   "cSpell.userWords": [
     "Println",
