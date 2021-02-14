@@ -120,6 +120,7 @@
   //"prettier.tabWidth": 4,
   // **********************
   // beautify settings
+  // apply to html only
   // **********************
   "[html]": {
     "editor.defaultFormatter": "HookyQR.beautify"
