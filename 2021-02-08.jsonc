@@ -127,7 +127,7 @@
   },
   "editor.wordWrap": "on",
   // ********************************
-  // Spell checker settings
+  // Spell checker editor settings
   // enbale language setting to en-GB
   // ********************************
   "cSpell.language": "en-GB",
