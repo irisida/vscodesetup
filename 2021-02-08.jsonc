@@ -13,7 +13,8 @@
   "files.trimTrailingWhitespace": true,
   // ************************************
   // compiled files that should be hidden
-  // from the vscode view
+  // from the vscode view to remove UI
+  // clutter.
   // ************************************
   "files.exclude": {
     "**/bin": true,
