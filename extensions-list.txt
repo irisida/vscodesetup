@@ -1,4 +1,5 @@
 // vim mode settings
+// *****************
 vscodevim.vim
 
 // use the main one dark instead
