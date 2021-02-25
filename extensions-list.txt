@@ -9,5 +9,6 @@ zhuangtongfa.material-theme
 // make sure to recompile the tools
 golang.go
 
-// works like nerdtree
+// works like nerdtree on vim/nvim
 sendhil.vscode-file-explorer-menu
+
