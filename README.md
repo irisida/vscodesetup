@@ -14,6 +14,6 @@ beautify
 css peek
 separators
 color highlight
-es7 react snippets
+es7 react and graphql snippets
 todo highlight
 autorename tag (superseded by vscode itself)
