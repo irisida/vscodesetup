@@ -2,12 +2,12 @@
 
 settings and additions to vscode standard config:
 
-## general settings:
+## General Settings:
 
 adds vim mode,
 some vim key bindings.
 
-## javascript setup:
+## JavaScript Setup:
 
 prettier
 beautify
