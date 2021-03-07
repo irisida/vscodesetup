@@ -21,4 +21,4 @@ settings and additions to vscode standard config:
 
 ## DB setup
 
-- mongoDB for vscode
+- MongoDB for vscode
