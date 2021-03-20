@@ -1,6 +1,6 @@
 # vscodesetup
 
-settings and additions to vscode standard config:
+Settings and additions to vscode standard config:
 
 ## General Settings:
 
