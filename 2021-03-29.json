@@ -63,6 +63,7 @@
       "panel.border": "#2f353c",
       "sideBar.foreground": "#6d7e94",
       "list.focusForeground": "#95c077",
+      // seaparators
       "separators.interfaces.borderColor": "#3f4148",
       "separators.methods.borderColor": "#3f4148",
       "separators.functions.borderColor": "#3f4148",
