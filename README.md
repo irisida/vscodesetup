@@ -18,6 +18,7 @@ Settings and additions to vscode standard config:
 - es7 react and graphql snippets
 - todo highlight
 - autorename tag (superseded by vscode itself)
+- svelte
 
 ## DB setup
 
