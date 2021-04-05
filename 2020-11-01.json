@@ -60,6 +60,8 @@
     }
   ],
   // ---------------------------------------
+  // vim mode overrides
+  // ---------------------------------------
   "vim.normalModeKeyBindingsNonRecursive": [
     {
       "before": ["<leader>", "d"],
