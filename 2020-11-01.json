@@ -79,6 +79,7 @@
   },
   // ********
   // Themeing
+  // ********
   "workbench.colorCustomizations": {
     "[One Dark Pro]": {
       "titleBar.activeBackground": "#21252b",
